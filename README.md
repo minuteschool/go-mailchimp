@@ -75,6 +75,7 @@ func main() {
 	memberResponse, err = client.Subscribe(
 		"listID",
 		"john@reese.com",
+		false,
 		map[string]interface{}{},
 	)
 
