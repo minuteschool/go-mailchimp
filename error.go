@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// SubError additionals errors within an ErrorResponse.
 type SubError struct {
 	Field   string `json:"field"`
 	Message string `json:"message"`

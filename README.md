@@ -2,7 +2,7 @@
 
 A Golang SDK for Mailchimp API v3.
 
-[![Travis Status for RichardKnop/go-mailchimp](https://travis-ci.org/RichardKnop/go-mailchimp.svg?branch=master)](https://travis-ci.org/RichardKnop/go-mailchimp)
+[![Travis Status for minuteschool/go-mailchimp](https://travis-ci.org/minuteschool/go-mailchimp.svg?branch=master)](https://travis-ci.org/minuteschool/go-mailchimp)
 
 ## Usage
 
@@ -12,7 +12,7 @@ package main
 import (
 	"log"
 
-	"github.com/RichardKnop/go-mailchimp"
+	"github.com/minuteschool/go-mailchimp"
 )
 
 func main() {

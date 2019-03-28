@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/RichardKnop/go-mailchimp/status"
+	"github.com/minuteschool/go-mailchimp/status"
 )
 
-// UpdateSubscription ...
+// RemoveSubscription removes a subscription on listID for email.
 func (c *Client) RemoveSubscription(listID string, email string, mergeFields map[string]interface{}) (*MemberResponse, error) {
 	// Hash email
 	emailMD5 := fmt.Sprintf("%x", md5.Sum([]byte(email)))
